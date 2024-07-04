@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        /* Basic styling for better appearance */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            margin: auto;
+        }
+        input[type=text], select {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 15px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type=pass], select {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 15px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type=number], select {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 15px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type=submit] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float: right-middle;
+        }
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+        input[type=reset] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float: left-middle;
+        }
+        input[type=reset]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <form action="Well done.html" style="text-align: center;">
+    <fieldset>
+        <h1>RMF</h1>
+        <legend><h3>Student Information Form</h3></legend>
+        <label for="name">First Name</label>
+        <Input type="text" id="fname" placeholder="Enter your first name"> <br> <br>
+
+            <label for="name">Last Name</label>
+        <Input type="text" id="lname" placeholder="Enter your last name"> <br> <br>
+
+            <label for="email">Email</label>
+        <Input type="text" id="email" placeholder="Enter your email"><br> <br>
+
+        <label for="username">UserName</label>
+        <Input type="text" id="username" name="username" ><br> <br>
+
+            <label for="pass">Password</label>
+        <Input type="pass" id="password" placeholder="Enter your password"> <br> <br>
+
+            <label for="pass">Confirm Password</label>
+        <Input type="pass" id="password" placeholder="Confirm your password"> <br> <br>
+
+            <label for="number">phone number</label>
+        <Input type="number" id="number" placeholder="Enter your phone number"><br>
+
+        <label for="number">Your Age</label>
+        <Input type="number" id="age" placeholder="Enter your Age"><br>
+
+        <p>Select Your Division</p>
+
+            <select>
+                <option disabled selected>division</option>
+                <option >Dhaka</option>
+                <option>Chittagong</option>
+                <option>Barishal</option>
+                <option>Rangpur</option>
+                <option>Rajshahi</option>
+                <option>Mymenshingh</option>
+                <option>Cumilla</option>
+                <option>Sylhet</option>
+
+            </select> <br> <br>
+            <span>
+                <p>Select Your Gender</p>
+            <input name="gender" type="radio" id="value">
+            <label for="men" >men</label><br><br>
+
+            <input name="gender"  type="radio" id="value">
+            <label for="women" >women</label><br><br>
+            
+            <input name="gender"  type="radio" id="value">
+            <label for="others" >others</label><br><br>
+            </span>
+            
+            
+            <label for="datetime">Date and Time</label><br>
+            <Input type="datetime-local"><br> <br>
+
+            <input type="color">
+            <label for="clr">Select color </label><br> <br>
+
+            <label for="url">Url</label><br>
+            <input type="url"><br><br>
+
+            <label for="textarea">Comments</label><br>
+            <input type="textarea" rows="80" colomns="20"><br><br>
+            
+
+            <input type="reset" value="Reset">
+
+            <input type="submit" value="Submit">
+            
+
+
+           
+
+    </fieldset>
+    </form>
+</body>
+</html>
